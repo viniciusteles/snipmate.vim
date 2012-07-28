@@ -502,3 +502,7 @@ snippet tas
 	task :${2:task_name => [:dependent, :tasks]} do
 		${3}
 	end
+snippet pv
+	puts "-----------------------------------------------"
+	puts "${1:Variable}: #{$1}"${2}
+	puts "-----------------------------------------------"
